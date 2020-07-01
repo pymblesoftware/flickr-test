@@ -8,8 +8,13 @@
 
 import XCTest
 @testable import DeloietteTest
+import RxSwift
+import RxCocoa
+
 
 class DeloietteTestTests: XCTestCase {
+
+    let disposeBag = DisposeBag()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,9 +24,31 @@ class DeloietteTestTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testFetch() throws {
+
+        let expect = expectation(description: "Fetch Succeeds")
+        let client = ApiClient.shared
+                  do{
+                    try client.getPhotoList().subscribe(
+                      onNext: { result in
+                       print(" done")
+                       expect.fulfill()
+
+                    },
+                      onError: { error in
+                         print(error.localizedDescription)
+                      },
+                      onCompleted: {
+                         print("Completed event.")
+                      }).disposed(by: disposeBag)
+                    }
+                    catch{
+                       
+                  }
+        waitForExpectations(timeout: 3.0) { (_) -> Void in
+        }
+
+            
     }
 
     func testPerformanceExample() throws {

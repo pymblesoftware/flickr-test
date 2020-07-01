@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5AE12469BF221F99439B43 /* Pods_DeloietteTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B464C5D612584C5261DAC73 /* Pods_DeloietteTestTests.framework */; };
+		4044BA0A266E7254EFD93E0A /* Pods_DeloietteTest_DeloietteTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAF5BF34263D5B151C91DF6 /* Pods_DeloietteTest_DeloietteTestUITests.framework */; };
+		C171B414E6A64AB1E70D4381 /* Pods_DeloietteTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8E410BE059E14BE9785B70 /* Pods_DeloietteTest.framework */; };
 		D5E9DA3D24AABFE4001E5BE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA3C24AABFE4001E5BE5 /* AppDelegate.swift */; };
 		D5E9DA3F24AABFE4001E5BE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA3E24AABFE4001E5BE5 /* SceneDelegate.swift */; };
 		D5E9DA4124AABFE4001E5BE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA4024AABFE4001E5BE5 /* ViewController.swift */; };
@@ -15,6 +18,11 @@
 		D5E9DA4924AABFE6001E5BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E9DA4724AABFE6001E5BE5 /* LaunchScreen.storyboard */; };
 		D5E9DA5424AABFE6001E5BE5 /* DeloietteTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA5324AABFE6001E5BE5 /* DeloietteTestTests.swift */; };
 		D5E9DA5F24AABFE6001E5BE5 /* DeloietteTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA5E24AABFE6001E5BE5 /* DeloietteTestUITests.swift */; };
+		D5E9DA6F24AAC282001E5BE5 /* instructions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5E9DA6E24AAC282001E5BE5 /* instructions.rtf */; };
+		D5E9DA7624AAC460001E5BE5 /* FlickrModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA7524AAC460001E5BE5 /* FlickrModel.swift */; };
+		D5E9DA7824AAC9AA001E5BE5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA7724AAC9AA001E5BE5 /* ApiClient.swift */; };
+		D5E9DA7A24AACA78001E5BE5 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA7924AACA78001E5BE5 /* RequestObservable.swift */; };
+		D5E9DA8324AB3304001E5BE5 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9DA8124AB3304001E5BE5 /* PhotoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8E410BE059E14BE9785B70 /* Pods_DeloietteTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeloietteTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28148562F60E91C49C11197F /* Pods-DeloietteTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTestTests.release.xcconfig"; path = "Target Support Files/Pods-DeloietteTestTests/Pods-DeloietteTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C8DA8E50AD8F7DD6D31A657 /* Pods-DeloietteTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTest.release.xcconfig"; path = "Target Support Files/Pods-DeloietteTest/Pods-DeloietteTest.release.xcconfig"; sourceTree = "<group>"; };
+		3B464C5D612584C5261DAC73 /* Pods_DeloietteTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeloietteTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D50B0E301707AF1F292AB49 /* Pods-DeloietteTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTest.debug.xcconfig"; path = "Target Support Files/Pods-DeloietteTest/Pods-DeloietteTest.debug.xcconfig"; sourceTree = "<group>"; };
+		496B9D89BAF08A143B6FB080 /* Pods-DeloietteTest-DeloietteTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTest-DeloietteTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-DeloietteTest-DeloietteTestUITests/Pods-DeloietteTest-DeloietteTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CAF5BF34263D5B151C91DF6 /* Pods_DeloietteTest_DeloietteTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeloietteTest_DeloietteTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB80E34745F4F110EEFB3F6 /* Pods-DeloietteTest-DeloietteTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTest-DeloietteTestUITests.release.xcconfig"; path = "Target Support Files/Pods-DeloietteTest-DeloietteTestUITests/Pods-DeloietteTest-DeloietteTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BDB8A85C5B27EC9019FA92B /* Pods-DeloietteTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeloietteTestTests.debug.xcconfig"; path = "Target Support Files/Pods-DeloietteTestTests/Pods-DeloietteTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5E9DA3924AABFE4001E5BE5 /* DeloietteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeloietteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E9DA3C24AABFE4001E5BE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5E9DA3E24AABFE4001E5BE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,11 @@
 		D5E9DA5A24AABFE6001E5BE5 /* DeloietteTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeloietteTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E9DA5E24AABFE6001E5BE5 /* DeloietteTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeloietteTestUITests.swift; sourceTree = "<group>"; };
 		D5E9DA6024AABFE6001E5BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E9DA6E24AAC282001E5BE5 /* instructions.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = instructions.rtf; sourceTree = "<group>"; };
+		D5E9DA7524AAC460001E5BE5 /* FlickrModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrModel.swift; sourceTree = "<group>"; };
+		D5E9DA7724AAC9AA001E5BE5 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D5E9DA7924AACA78001E5BE5 /* RequestObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
+		D5E9DA8124AB3304001E5BE5 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C171B414E6A64AB1E70D4381 /* Pods_DeloietteTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5AE12469BF221F99439B43 /* Pods_DeloietteTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4044BA0A266E7254EFD93E0A /* Pods_DeloietteTest_DeloietteTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D51C73C7B59FD4B59EA9CE1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A8E410BE059E14BE9785B70 /* Pods_DeloietteTest.framework */,
+				4CAF5BF34263D5B151C91DF6 /* Pods_DeloietteTest_DeloietteTestUITests.framework */,
+				3B464C5D612584C5261DAC73 /* Pods_DeloietteTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5E9DA3024AABFE4001E5BE5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				D5E9DA5224AABFE6001E5BE5 /* DeloietteTestTests */,
 				D5E9DA5D24AABFE6001E5BE5 /* DeloietteTestUITests */,
 				D5E9DA3A24AABFE4001E5BE5 /* Products */,
+				E508F3D031F00C6EF2BB1193 /* Pods */,
+				D51C73C7B59FD4B59EA9CE1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +136,11 @@
 		D5E9DA3B24AABFE4001E5BE5 /* DeloietteTest */ = {
 			isa = PBXGroup;
 			children = (
-				D5E9DA3C24AABFE4001E5BE5 /* AppDelegate.swift */,
-				D5E9DA3E24AABFE4001E5BE5 /* SceneDelegate.swift */,
-				D5E9DA4024AABFE4001E5BE5 /* ViewController.swift */,
-				D5E9DA4224AABFE4001E5BE5 /* Main.storyboard */,
+				D5E9DA7224AAC312001E5BE5 /* Model */,
+				D5E9DA7124AAC2F1001E5BE5 /* ViewModel */,
+				D5E9DA6D24AAC089001E5BE5 /* View */,
+				D5E9DA6C24AAC068001E5BE5 /* Support */,
 				D5E9DA4524AABFE6001E5BE5 /* Assets.xcassets */,
-				D5E9DA4724AABFE6001E5BE5 /* LaunchScreen.storyboard */,
 				D5E9DA4A24AABFE6001E5BE5 /* Info.plist */,
 			);
 			path = DeloietteTest;
@@ -128,6 +164,57 @@
 			path = DeloietteTestUITests;
 			sourceTree = "<group>";
 		};
+		D5E9DA6C24AAC068001E5BE5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9DA3C24AABFE4001E5BE5 /* AppDelegate.swift */,
+				D5E9DA6E24AAC282001E5BE5 /* instructions.rtf */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D5E9DA6D24AAC089001E5BE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9DA3E24AABFE4001E5BE5 /* SceneDelegate.swift */,
+				D5E9DA4024AABFE4001E5BE5 /* ViewController.swift */,
+				D5E9DA4224AABFE4001E5BE5 /* Main.storyboard */,
+				D5E9DA4724AABFE6001E5BE5 /* LaunchScreen.storyboard */,
+				D5E9DA8124AB3304001E5BE5 /* PhotoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5E9DA7124AAC2F1001E5BE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9DA7724AAC9AA001E5BE5 /* ApiClient.swift */,
+				D5E9DA7924AACA78001E5BE5 /* RequestObservable.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5E9DA7224AAC312001E5BE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9DA7524AAC460001E5BE5 /* FlickrModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E508F3D031F00C6EF2BB1193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D50B0E301707AF1F292AB49 /* Pods-DeloietteTest.debug.xcconfig */,
+				2C8DA8E50AD8F7DD6D31A657 /* Pods-DeloietteTest.release.xcconfig */,
+				496B9D89BAF08A143B6FB080 /* Pods-DeloietteTest-DeloietteTestUITests.debug.xcconfig */,
+				5AB80E34745F4F110EEFB3F6 /* Pods-DeloietteTest-DeloietteTestUITests.release.xcconfig */,
+				7BDB8A85C5B27EC9019FA92B /* Pods-DeloietteTestTests.debug.xcconfig */,
+				28148562F60E91C49C11197F /* Pods-DeloietteTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5E9DA6324AABFE6001E5BE5 /* Build configuration list for PBXNativeTarget "DeloietteTest" */;
 			buildPhases = (
+				7E08768B3B05D314251D97AB /* [CP] Check Pods Manifest.lock */,
 				D5E9DA3524AABFE4001E5BE5 /* Sources */,
 				D5E9DA3624AABFE4001E5BE5 /* Frameworks */,
 				D5E9DA3724AABFE4001E5BE5 /* Resources */,
+				9B357D822AA358101A18B842 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5E9DA6624AABFE6001E5BE5 /* Build configuration list for PBXNativeTarget "DeloietteTestTests" */;
 			buildPhases = (
+				4E5EE86CC75510D9FCF3AA4E /* [CP] Check Pods Manifest.lock */,
 				D5E9DA4B24AABFE6001E5BE5 /* Sources */,
 				D5E9DA4C24AABFE6001E5BE5 /* Frameworks */,
 				D5E9DA4D24AABFE6001E5BE5 /* Resources */,
+				4D524CAF7E51F61DAE9B3329 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5E9DA6924AABFE6001E5BE5 /* Build configuration list for PBXNativeTarget "DeloietteTestUITests" */;
 			buildPhases = (
+				F565DEFAE7723CD7EFDF4D40 /* [CP] Check Pods Manifest.lock */,
 				D5E9DA5624AABFE6001E5BE5 /* Sources */,
 				D5E9DA5724AABFE6001E5BE5 /* Frameworks */,
 				D5E9DA5824AABFE6001E5BE5 /* Resources */,
+				C0602BBBEDF63C08A3F29DDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +328,7 @@
 				D5E9DA4924AABFE6001E5BE5 /* LaunchScreen.storyboard in Resources */,
 				D5E9DA4624AABFE6001E5BE5 /* Assets.xcassets in Resources */,
 				D5E9DA4424AABFE4001E5BE5 /* Main.storyboard in Resources */,
+				D5E9DA6F24AAC282001E5BE5 /* instructions.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +348,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D524CAF7E51F61DAE9B3329 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTestTests/Pods-DeloietteTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTestTests/Pods-DeloietteTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeloietteTestTests/Pods-DeloietteTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5EE86CC75510D9FCF3AA4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeloietteTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E08768B3B05D314251D97AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeloietteTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B357D822AA358101A18B842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest/Pods-DeloietteTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest/Pods-DeloietteTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest/Pods-DeloietteTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0602BBBEDF63C08A3F29DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest-DeloietteTestUITests/Pods-DeloietteTest-DeloietteTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest-DeloietteTestUITests/Pods-DeloietteTest-DeloietteTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeloietteTest-DeloietteTestUITests/Pods-DeloietteTest-DeloietteTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F565DEFAE7723CD7EFDF4D40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeloietteTest-DeloietteTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5E9DA3524AABFE4001E5BE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E9DA7A24AACA78001E5BE5 /* RequestObservable.swift in Sources */,
+				D5E9DA7624AAC460001E5BE5 /* FlickrModel.swift in Sources */,
 				D5E9DA4124AABFE4001E5BE5 /* ViewController.swift in Sources */,
 				D5E9DA3D24AABFE4001E5BE5 /* AppDelegate.swift in Sources */,
+				D5E9DA8324AB3304001E5BE5 /* PhotoTableViewCell.swift in Sources */,
 				D5E9DA3F24AABFE4001E5BE5 /* SceneDelegate.swift in Sources */,
+				D5E9DA7824AAC9AA001E5BE5 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +650,7 @@
 		};
 		D5E9DA6424AABFE6001E5BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D50B0E301707AF1F292AB49 /* Pods-DeloietteTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +669,7 @@
 		};
 		D5E9DA6524AABFE6001E5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8DA8E50AD8F7DD6D31A657 /* Pods-DeloietteTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +688,7 @@
 		};
 		D5E9DA6724AABFE6001E5BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BDB8A85C5B27EC9019FA92B /* Pods-DeloietteTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +711,7 @@
 		};
 		D5E9DA6824AABFE6001E5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28148562F60E91C49C11197F /* Pods-DeloietteTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +734,7 @@
 		};
 		D5E9DA6A24AABFE6001E5BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496B9D89BAF08A143B6FB080 /* Pods-DeloietteTest-DeloietteTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +755,7 @@
 		};
 		D5E9DA6B24AABFE6001E5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB80E34745F4F110EEFB3F6 /* Pods-DeloietteTest-DeloietteTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
